@@ -1,0 +1,3 @@
+package com.micuadra.domain;
+
+public enum TipoEventoSalud { VACUNA_GRIPE, VACUNA_TETANOS, VACUNA_OTRA, DESPARASITACION, HERRADOR, DENTISTA, VETERINARIO }

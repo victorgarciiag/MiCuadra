@@ -1,0 +1,15 @@
+# Build y dependencias
+micuadra-backend/target/
+micuadra-frontend/node_modules/
+micuadra-frontend/dist/
+micuadra-frontend/.angular/
+
+# Secretos
+.env
+
+# IDE / sistema
+micuadra-backend/.settings/
+micuadra-backend/.classpath
+micuadra-backend/.project
+micuadra-backend/.factorypath
+.DS_Store

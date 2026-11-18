@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/micuadra}
+    username: ${DB_USER:micuadra}
+    password: ${DB_PASSWORD:micuadra}
+  jpa:
+    hibernate:
+      ddl-auto: update   # demo: en cuanto haya datos reales, pasar a Flyway
+    open-in-view: false
+  jackson:
+    default-property-inclusion: non_null
+
+micuadra:
+  datos-demo: ${DATOS_DEMO:true}
